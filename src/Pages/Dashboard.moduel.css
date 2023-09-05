@@ -1,0 +1,550 @@
+.parentDivision{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.LeftDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 0px 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.LeftInnerDivFirst{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.LeftInnerDivFirstFirst{
+  display: flex;
+  width: 100%;
+}
+.LeftInnerDivFirstInnerDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.userDetailsCard{
+    display: flex;
+    /* width: 100%; */
+    background-color: #5746EA;
+    border-radius: 20px;
+    flex-direction: row;
+    
+}
+.userDetailsCard>img{
+    display: flex;
+    width: 20%;
+    padding: 20px;
+}
+.userDetais{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.userDetais>div>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.userDetais>div>p:nth-child(3){
+  font-size: 30px;
+
+}
+
+.userDetais>p:nth-child(1){
+    margin: 0px;
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.02em;
+}
+.userDetais>p:nth-child(2){
+  margin: 0px;
+  margin-top: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.02em;
+}
+
+.userSelectMusic{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.userSelectMusicInnerDiv{
+    display: flex;
+    background: #9F94FF;
+    width: 12vh;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.userSelectMusicInnerDiv>p{
+  cursor: pointer;
+  margin: 0px;
+  padding: 10px 10px 10px 15px;
+}
+.userSelectMusicInnerDiv>p:nth-child(2){
+  margin: 0px;
+  padding: 10px 0px 10px 5px;
+}
+.notePad{
+  display: flex;
+  flex-direction: column;
+  background: #F1C75B;
+  /* justify-content: space-evenly; */
+  width: 100%;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+.notePad>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 105.69%;
+  /* or 40px */
+  
+  letter-spacing: 0.02em;
+  
+  color: #000000;
+   text-align: start;
+   padding-left: 50px;
+
+}
+.textBox{
+  display: flex;
+  width: 60%;
+  height: 45%;
+  word-wrap: break-word;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 0px 50px 50px 50px;
+  background: #F1C75B;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  white-space: pre-line;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #000000;
+
+}
+
+.editButtonDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  cursor: pointer;
+}
+.editButton{
+  padding: 20px;
+  background: #000000;
+  border-radius: 80%;
+  margin-right: 40px;
+}
+.timerCircle{
+  width: 150%;
+  height: 150%;
+  background-color: rgba(95, 88, 88, 0.23), inset 0px 6px 26px rgba(0, 0, 0, 0.61);;
+  background: #ffffff;
+}
+.weatherDiv{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 30px;
+}
+
+.weatherWhiteLine{ 
+  display: flex;
+  width: 2px;
+  align-items: center;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.dateTime{
+    display: flex;
+    justify-content: space-evenly;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #FF4ADE;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.weatherInnerDiv{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     background: #101744;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 17px;
+
+}
+
+.cloud{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tempreature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.tempreature>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pressure{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pressure>img{
+  width: 50%;
+  height: 50%;
+}
+
+.wind{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.windSpeed{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: center;
+}
+.windSpeed>img{
+  width: 25%;
+
+}
+.humidity{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     text-align: center;
+}
+
+
+.LeftInnerDivSecond{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  align-items: center;
+  background: #1E2343;
+
+}
+.HourParentDiv{
+   display: flex;
+   flex-direction: column;
+   margin-top: 25px;
+}
+.hourDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hourDivInner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+.hourDivInner>img{
+  width: 30%;
+
+}
+.hourDivInner>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.lineDiv{
+  font-size: 60px;
+  padding-top: 35px;
+}
+
+
+
+.timerCircle{
+  display: flex;
+  width: 100%;
+}
+.timeDiv{
+   display: flex;
+   width: 100%;
+}
+.timerDiv{
+  display: flex;
+}
+
+.liveTimer{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.liveTimer>div{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+.timeDiv>p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+
+
+.startButton{
+  margin: 30px 0px 10px 0px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background: #FF6A6A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+
+.timeDecreaseDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+.RightParentDiv{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.RightDiv{
+  display: flex;
+  border-radius: 20px;
+  width: 40vh;
+height: 89vh;
+  margin: 30px 30px 0px 10px;
+  background-image: url(.././images/mountain.png);
+
+}
+
+.climbDiv{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+  justify-content: bottom;
+  background-color:  rgba(0, 0, 0, 0.74);
+}
+
+
+
+.date{
+  display: flex;
+  justify-content: space-around;
+}
+.climbDiv>p:nth-child(1){
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding: 0px 20px 0px 20px;
+  letter-spacing: 0.02em;
+}
+.climbDiv>p:nth-child(2){
+  padding: 20px 20px 20px 20px;
+ 
+  margin: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+.climbDiv>p:nth-child(3){
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.2493px;
+  letter-spacing: 0.02em;
+}
+
+.climatePeraDiv{
+  width: 100%;
+  align-self: flex-end;
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.climatePera{
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+}
+.browseBtnDiv{
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.browseBtn
+{
+  color: white;
+  padding: 5px;
+  background: #148A08;
+  border-radius: 34.7771px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+
+
+  .cloud>p{
+    font-size: 10px;
+  }
+  .cloud>img{
+    width: 70%;
+  }
+  .tempreature{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tempreature>p{
+    font-size: 25px;
+
+  }
+  .pressure>p{
+    font-size: 10px;
+
+  }
+  .windSpeed>p{
+    font-size: 12px;
+  }
+  .humidity>p{
+    font-size: 12px;
+
+  }
+  .editButton{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1240px){
+
+  .RightParentDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .RightDiv{
+    display: flex;
+    border-radius: 20px;
+    width: 30vh;
+  height: 80vh;
+    margin: 30px 30px 0px 10px;
+    background-image: url(.././images/mountain.png);
+  
+  }
+.userSelectMusicInnerDiv{width: 90px; 
+height: 35px;}
+.userSelectMusicInnerDiv>p:nth-child(1){
+  font-size: 15px;
+  padding: 7px;
+
+}
+.userSelectMusicInnerDiv>p:nth-child(2){
+  padding: 7px;
+  font-size: 15px;
+
+}
+}
+@media only screen and (max-width: 1150px){
+  .userDetais>div>p:nth-child(3){
+    font-size: 15px;
+
+  
+  }
+  
+  .userDetais>p:nth-child(1){
+      font-size: 15px;
+  }
+  .userDetais>p:nth-child(2){
+    font-size: 15px;
+
+  }
+
+}
